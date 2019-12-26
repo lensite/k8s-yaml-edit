@@ -7,7 +7,6 @@ class FileHandler(tornado.web.RequestHandler):
         self.send_error(200)
 
     def post(self, *args, **kwargs):
-        path = self.request.path
         app_name = self.get_argument('app_name')
         namespace = self.get_argument('namespace')
         replicas = self.get_argument('replicas')
@@ -15,4 +14,4 @@ class FileHandler(tornado.web.RequestHandler):
                     "namespace": namespace,
                     "replicas": int(replicas)}
         yaml_ctrl().write_file(par_list)
-        self.write("Submitted successfully")
+        self.redirect('form_basic.html')

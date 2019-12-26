@@ -5,7 +5,6 @@ import urls
 class Index(tornado.web.RequestHandler):
     def get(self):
         path = self.request.path
-        print(path)
         if path == '/':
             self.render('index.html')
         else:
