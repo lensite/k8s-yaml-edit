@@ -2,21 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: redis
-  name: redis
+    app: nginx
+  name: nginx
   namespace: default
 spec:
-  replicas: 12
+  replicas: 10
   selector:
     matchLabels:
-      app: redis
+      app: nginx
   template:
     metadata:
       labels:
-        app: redis
+        app: nginx
     spec:
       containers:
       - image: tomcat:latest
-        name: redis
+        name: nginx
         ports:
         - containerPort: 8080
