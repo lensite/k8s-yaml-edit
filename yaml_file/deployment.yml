@@ -2,21 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: tomcat
-  name: tomcat
+    app: duliban-api
+  name: duliban-api
   namespace: default
 spec:
-  replicas: 2
+  replicas: 10
   selector:
     matchLabels:
-      app: tomcat
+      app: duliban-api
   template:
     metadata:
       labels:
-        app: tomcat
+        app: duliban-api
     spec:
       containers:
-      - image: tomcat:latest
-        name: tomcat
+      - image: registry-vpc.cn-beijing.aliyuncs.com/wuu-docker/independent-gzt:mobile-10-23
+        name: duliban-api
         ports:
         - containerPort: 8080
