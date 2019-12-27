@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f905ef2e-b350-4bfd-9ed3-aaab91e2eea0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app_basic_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/containers_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/edit_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/editYaml.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/fileHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/fileHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/chart_columnar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chart_columnar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/chart_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chart_line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/chart_pie.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chart_pie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_validate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_validate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/table_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/table_basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/table_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/table_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/typography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yaml_file/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yaml_file/deployment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VW2O40KLXPIEJEJxzH27y64H7x" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -39,6 +55,16 @@
         <option name="myUseModuleSdk" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/common" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -115,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577354495453</updated>
       <workItem from="1577354500250" duration="301000" />
-      <workItem from="1577355000652" duration="823000" />
+      <workItem from="1577355000652" duration="4395000" />
     </task>
     <task id="LOCAL-00001" summary="代码初始化">
       <created>1577355036811</created>
@@ -131,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577355417326</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加静态url路由">
+      <created>1577356031335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577356031335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,37 +176,47 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加静态url路由" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="126" key="CommitChangelistDialog2" timestamp="1577355416762">
-      <screen x="0" y="23" width="1920" height="1010" />
+    <state x="388" y="126" key="CommitChangelistDialog2" timestamp="1577356031167">
+      <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state x="388" y="126" key="CommitChangelistDialog2/0.23.1920.1010@0.23.1920.1010" timestamp="1577355416762" />
-    <state width="1492" height="267" key="GridCell.Tab.0.bottom" timestamp="1577355862912">
-      <screen x="0" y="23" width="1920" height="1010" />
+    <state x="388" y="126" key="CommitChangelistDialog2/0.23.1920.1011@0.23.1920.1011" timestamp="1577356031167" />
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom" timestamp="1577433379153">
+      <screen x="0" y="23" width="1920" height="1012" />
     </state>
-    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1577355862912" />
-    <state width="1492" height="267" key="GridCell.Tab.0.center" timestamp="1577355862912">
-      <screen x="0" y="23" width="1920" height="1010" />
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955480" />
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1577433218361" />
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1012@0.23.1920.1012" timestamp="1577433379153" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center" timestamp="1577433379152">
+      <screen x="0" y="23" width="1920" height="1012" />
     </state>
-    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1577355862912" />
-    <state width="1492" height="267" key="GridCell.Tab.0.left" timestamp="1577355862911">
-      <screen x="0" y="23" width="1920" height="1010" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955479" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1577433218360" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1012@0.23.1920.1012" timestamp="1577433379152" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left" timestamp="1577433379151">
+      <screen x="0" y="23" width="1920" height="1012" />
     </state>
-    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1577355862911" />
-    <state width="1492" height="267" key="GridCell.Tab.0.right" timestamp="1577355862912">
-      <screen x="0" y="23" width="1920" height="1010" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955479" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1577433218360" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1012@0.23.1920.1012" timestamp="1577433379151" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right" timestamp="1577433379153">
+      <screen x="0" y="23" width="1920" height="1012" />
     </state>
-    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1577355862912" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955480" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1577433218360" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1012@0.23.1920.1012" timestamp="1577433379153" />
     <state x="290" y="167" key="SettingsEditor" timestamp="1577355069727">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="290" y="167" key="SettingsEditor/0.23.1920.1010@0.23.1920.1010" timestamp="1577355069727" />
-    <state x="381" y="268" key="Vcs.Push.Dialog.v2" timestamp="1577355424357">
-      <screen x="0" y="23" width="1920" height="1010" />
+    <state x="381" y="268" key="Vcs.Push.Dialog.v2" timestamp="1577356036256">
+      <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state x="381" y="268" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1577355424357" />
+    <state x="381" y="268" key="Vcs.Push.Dialog.v2/0.23.1920.1011@0.23.1920.1011" timestamp="1577356036256" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/k8s_yaml_edit$test.coverage" NAME="test Coverage Results" MODIFIED="1577354665856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/k8s_yaml_edit$main.coverage" NAME="main Coverage Results" MODIFIED="1577355862902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/k8s_yaml_edit$main.coverage" NAME="main Coverage Results" MODIFIED="1577433379143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

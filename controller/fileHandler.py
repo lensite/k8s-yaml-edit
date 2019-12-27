@@ -1,5 +1,5 @@
 import tornado.web
-from controller.edit_yaml import yaml_ctrl
+from common.editYaml import Deployment
 
 
 class FileHandler(tornado.web.RequestHandler):
@@ -13,5 +13,5 @@ class FileHandler(tornado.web.RequestHandler):
         par_list = {"app_name": app_name,
                     "namespace": namespace,
                     "replicas": int(replicas)}
-        yaml_ctrl().write_file(par_list)
-        self.redirect('form_basic.html')
+        Deployment().write_file(par_list)
+        self.redirect('containers_info.html')

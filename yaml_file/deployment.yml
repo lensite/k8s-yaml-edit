@@ -4,9 +4,9 @@ metadata:
   labels:
     app: tomcat
   name: tomcat
-  namespace: web
+  namespace: default
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: tomcat
