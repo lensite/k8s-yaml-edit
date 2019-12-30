@@ -45,5 +45,7 @@ class Deployment:
             containers_list = yaml_data['spec']['template']['spec']['containers']
             for i in containers_list:
                 i['name'] = yaml_data['metadata']['name']
+                for j in i['ports']:
+                    j['containerPort']=par_list['containerPort']
                 i['image'] = "%s:%s" % (par_list['image_name'], par_list['image_tag'])
             yaml.dump(yaml_data, yaml_file)

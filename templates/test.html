@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="am-u-sm-12">
+    <div class="card-box">
+        <h4 class="header-title m-t-0 m-b-30">应用基本信息</h4>
+        <div class="am-g">
+            <div class="am-u-md-6">
+                <form class="am-form am-text-sm" action="app_base" method="post">
+                    <div class="am-form-group">
+                        <div class="am-g">
+                            <label class="am-u-md-2 am-md-text-right am-padding-left-0">应用名称</label>
+                            <input class="am-u-md-10 form-control" id="doc-ipt-text-1" name="app_name">
+                        </div>
+                    </div>
+
+                    <div class="am-form-group">
+                        <div class="am-g">
+                            <label class="am-u-md-2 am-md-text-right am-padding-left-0">命名空间</label>
+                            <input class="am-u-md-10 form-control" id="doc-ipt-email-1"
+                                   name="namespace">
+                        </div>
+                    </div>
+
+                    <div class="am-form-group">
+                        <div class="am-g">
+                            <label class="am-u-md-2 am-md-text-right am-padding-left-0"
+                                   for="doc-ipt-pwd-1">副本数量</label>
+                            <input type="text" class="am-u-md-10" id="doc-ipt-pwd-1" name="replicas">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <div class="am-g">
+                            <label class="am-u-md-2 am-md-text-right am-padding-left-0" for="doc-select-1">类型</label>
+                            <select id="doc-select-1" name="status" required>
+                                <option value="no_status">无状态</option>
+                                <option value="is_status">有状态</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="am-btn am-btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{% end %}
