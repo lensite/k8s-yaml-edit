@@ -4,9 +4,9 @@ metadata:
   labels:
     app: tomcat
   name: tomcat
-  namespace: default
+  namespace: tomcat
 spec:
-  replicas: 12
+  replicas: 10
   selector:
     matchLabels:
       app: tomcat
@@ -16,7 +16,7 @@ spec:
         app: tomcat
     spec:
       containers:
-      - image: registry-vpc.cn-beijing.aliyuncs.com/wuu-docker/independent-gzt:v0.1
-        name: nginx
+      - image: registry-vpc.cn-beijing.aliyuncs.com/wuu-docker/independent-gzt:v0.2
+        name: redis
         ports:
         - containerPort: 443
