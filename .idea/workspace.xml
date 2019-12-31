@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f905ef2e-b350-4bfd-9ed3-aaab91e2eea0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/app_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app_basic_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app_basic_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/containers_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yaml_file/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yaml_file/deployment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -54,15 +56,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/common" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="k8s-yaml-edit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577354495453</updated>
       <workItem from="1577354500250" duration="301000" />
-      <workItem from="1577355000652" duration="16318000" />
+      <workItem from="1577355000652" duration="18609000" />
     </task>
     <task id="LOCAL-00001" summary="代码初始化">
       <created>1577355036811</created>
@@ -181,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577702390372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改模板引用方式，改为父子模板引用">
+      <created>1577703675482</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577703675482</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,67 +204,67 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改模板引用方式，改为父子模板引用" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="126" key="CommitChangelistDialog2" timestamp="1577702390200">
+    <state x="388" y="126" key="CommitChangelistDialog2" timestamp="1577703675299">
       <screen x="0" y="23" width="1920" height="1015" />
     </state>
     <state x="388" y="126" key="CommitChangelistDialog2/0.23.1920.1010@0.23.1920.1010" timestamp="1577355416762" />
     <state x="388" y="126" key="CommitChangelistDialog2/0.23.1920.1011@0.23.1920.1011" timestamp="1577433666569" />
     <state x="388" y="126" key="CommitChangelistDialog2/0.23.1920.1012@0.23.1920.1012" timestamp="1577438253989" />
-    <state x="388" y="126" key="CommitChangelistDialog2/0.23.1920.1015@0.23.1920.1015" timestamp="1577702390200" />
-    <state width="1492" height="267" key="GridCell.Tab.0.bottom" timestamp="1577703085493">
-      <screen x="0" y="23" width="1920" height="1015" />
+    <state x="388" y="126" key="CommitChangelistDialog2/0.23.1920.1015@0.23.1920.1015" timestamp="1577703675299" />
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom" timestamp="1577771594948">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955480" />
     <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1577672899542" />
     <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1012@0.23.1920.1012" timestamp="1577437973812" />
-    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1013@0.23.1920.1013" timestamp="1577439593409" />
-    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1014@0.23.1920.1014" timestamp="1577439521134" />
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1013@0.23.1920.1013" timestamp="1577771594948" />
+    <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1014@0.23.1920.1014" timestamp="1577761173140" />
     <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1015@0.23.1920.1015" timestamp="1577703085493" />
     <state width="1492" height="267" key="GridCell.Tab.0.bottom/0.23.1920.1017@0.23.1920.1017" timestamp="1577695649038" />
-    <state width="1492" height="267" key="GridCell.Tab.0.center" timestamp="1577703085492">
-      <screen x="0" y="23" width="1920" height="1015" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center" timestamp="1577771594947">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955479" />
     <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1577672899542" />
     <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1012@0.23.1920.1012" timestamp="1577437973811" />
-    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1013@0.23.1920.1013" timestamp="1577439593408" />
-    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1014@0.23.1920.1014" timestamp="1577439521133" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1013@0.23.1920.1013" timestamp="1577771594947" />
+    <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1014@0.23.1920.1014" timestamp="1577761173139" />
     <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1015@0.23.1920.1015" timestamp="1577703085492" />
     <state width="1492" height="267" key="GridCell.Tab.0.center/0.23.1920.1017@0.23.1920.1017" timestamp="1577695649038" />
-    <state width="1492" height="267" key="GridCell.Tab.0.left" timestamp="1577703085491">
-      <screen x="0" y="23" width="1920" height="1015" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left" timestamp="1577771594947">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955479" />
     <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1577672899541" />
     <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1012@0.23.1920.1012" timestamp="1577437973811" />
-    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1013@0.23.1920.1013" timestamp="1577439593407" />
-    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1014@0.23.1920.1014" timestamp="1577439521133" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1013@0.23.1920.1013" timestamp="1577771594947" />
+    <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1014@0.23.1920.1014" timestamp="1577761173137" />
     <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1015@0.23.1920.1015" timestamp="1577703085491" />
     <state width="1492" height="267" key="GridCell.Tab.0.left/0.23.1920.1017@0.23.1920.1017" timestamp="1577695649037" />
-    <state width="1492" height="267" key="GridCell.Tab.0.right" timestamp="1577703085493">
-      <screen x="0" y="23" width="1920" height="1015" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right" timestamp="1577771594947">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1010@0.23.1920.1010" timestamp="1577429955480" />
     <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1577672899542" />
     <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1012@0.23.1920.1012" timestamp="1577437973812" />
-    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1013@0.23.1920.1013" timestamp="1577439593408" />
-    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1014@0.23.1920.1014" timestamp="1577439521134" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1013@0.23.1920.1013" timestamp="1577771594947" />
+    <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1014@0.23.1920.1014" timestamp="1577761173140" />
     <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1015@0.23.1920.1015" timestamp="1577703085493" />
     <state width="1492" height="267" key="GridCell.Tab.0.right/0.23.1920.1017@0.23.1920.1017" timestamp="1577695649038" />
     <state x="290" y="167" key="SettingsEditor" timestamp="1577355069727">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="290" y="167" key="SettingsEditor/0.23.1920.1010@0.23.1920.1010" timestamp="1577355069727" />
-    <state x="381" y="269" key="Vcs.Push.Dialog.v2" timestamp="1577702404433">
+    <state x="381" y="269" key="Vcs.Push.Dialog.v2" timestamp="1577703680823">
       <screen x="0" y="23" width="1920" height="1015" />
     </state>
     <state x="381" y="268" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1577355424357" />
     <state x="381" y="268" key="Vcs.Push.Dialog.v2/0.23.1920.1011@0.23.1920.1011" timestamp="1577433671930" />
     <state x="381" y="268" key="Vcs.Push.Dialog.v2/0.23.1920.1012@0.23.1920.1012" timestamp="1577438260446" />
-    <state x="381" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1015@0.23.1920.1015" timestamp="1577702404433" />
+    <state x="381" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1015@0.23.1920.1015" timestamp="1577703680823" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/k8s_yaml_edit$test.coverage" NAME="test Coverage Results" MODIFIED="1577354665856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/k8s_yaml_edit$main.coverage" NAME="main Coverage Results" MODIFIED="1577703085483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/k8s_yaml_edit$test.coverage" NAME="test Coverage Results" MODIFIED="1577761173130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/k8s_yaml_edit$main.coverage" NAME="main Coverage Results" MODIFIED="1577771594939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

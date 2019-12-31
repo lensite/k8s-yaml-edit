@@ -2,21 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: tomcat
-  name: tomcat
+    app: mysql
+  name: mysql
   namespace: tomcat
 spec:
   replicas: 10
   selector:
     matchLabels:
-      app: tomcat
+      app: mysql
   template:
     metadata:
       labels:
-        app: tomcat
+        app: mysql
     spec:
       containers:
-      - image: registry-vpc.cn-beijing.aliyuncs.com/wuu-docker/independent-gzt:v0.2
-        name: redis
+      - image: dfgdf:mobile-10-23
+        name: mysql
         ports:
         - containerPort: 443
