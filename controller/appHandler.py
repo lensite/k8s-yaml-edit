@@ -1,6 +1,7 @@
 import tornado.web
 from common.editYaml import Deployment
 from common.appInfo import AppInfo
+import yaml
 
 
 class APPBaseInfo(tornado.web.RequestHandler):
@@ -12,7 +13,6 @@ class APPBaseInfo(tornado.web.RequestHandler):
         namespace = self.get_argument('namespace')
         replicas = self.get_argument('replicas')
         status = self.get_argument('status')
-        print(status)
         par_list = {"app_name": app_name,
                     "namespace": namespace,
                     "replicas": int(replicas)}
@@ -32,7 +32,12 @@ class ContainersInfo(tornado.web.RequestHandler):
                     "image_tag": image_tag,
                     "containerPort": int(containerPort)}
         Deployment().containers_info(par_list)
-        self.write('The application is created')
+        yaml_data = Deployment().read_file()
+        app_res=AppInfo().create_app(yaml.dump(yaml_data))
+        if app_res["status"] != "Failure":
+            self.redirect("/app_list")
+        else:
+            self.write(app_res["message"])
 
 
 class AppList(tornado.web.RequestHandler):

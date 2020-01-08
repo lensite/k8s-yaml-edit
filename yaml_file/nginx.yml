@@ -6,7 +6,7 @@ metadata:
   name: nginx
   namespace: default
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: nginx
@@ -19,4 +19,4 @@ spec:
       - image: nginx:1.16
         name: nginx
         ports:
-        - containerPort: 443
+        - containerPort: 80

@@ -49,3 +49,7 @@ class Deployment:
                     j['containerPort']=par_list['containerPort']
                 i['image'] = "%s:%s" % (par_list['image_name'], par_list['image_tag'])
             yaml.dump(yaml_data, yaml_file)
+
+if __name__ == '__main__':
+    yaml_data=Deployment("../yaml_file/nginx.yml").read_file()
+    print(yaml_data)
